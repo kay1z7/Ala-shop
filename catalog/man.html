@@ -13,13 +13,17 @@
 
 <body>
     <section id="header">
-        <img src="img/back.jpg" width="50" alt="Button Image" onclick="goBack()">
-        <script>
-            function goBack() {
-              window.history.back();
-            }
-          </script>
-        <a href="" id="logo"><h1>AlaShop</h1></a>
+        <div class="logo">
+            <a href="" id="logo" ><h1>AlaShop</h1></a>
+            <img src="img/back.jpg" width="50" alt="Button Image" id="" onclick="goBack()"> 
+            
+            <script>
+                function goBack() {
+                window.history.back();
+                }
+            </script>
+        </div>
+        
         
         <div>
             <ul id="navbar">
@@ -89,7 +93,7 @@
         <div class="col1">
             <h1>AlaShop</h1>
             <h5>university custom clothes company</h5>
-            <h3>Сompetition among designers:</h3>
+            <h3 class="competition">Сompetition among designers:</h3>
             <a href="navbar/about.html">
                 <button class="lm">Learn more</button>
             </a>
